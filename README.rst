@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fshakhat%2Fos-faults.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fshakhat%2Fos-faults?ref=badge_shield)
+
 =========
 OS-Faults
 =========
@@ -200,3 +202,7 @@ Restart a service on a single node:
     service = destructor.get_service(name='keystone')
     nodes = service.get_nodes().pick()
     service.restart(nodes)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fshakhat%2Fos-faults.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fshakhat%2Fos-faults?ref=badge_large)
